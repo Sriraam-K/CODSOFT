@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid #3a5578;
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    margin: 7.5px;
+}
+
+.header div{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-bottom: -15px;
+}
+
+.model{
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+    width: 40%;
+}
+
+.solar{
+    background: black;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.solar input[type = 'text']{
+    box-shadow: none;
+}
+
+form .display, form .modes {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .modes input {
+    margin-bottom: -2rem;
+    flex: 1;
+    height: 2rem;
+    background: #879f87;
+    color: rgba(0, 0, 255, 0.4);
+    font-size: 18px;
+    box-shadow: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    height: 5rem;
+    background: #879f87;
+    color: rgba(0, 0, 255, 0.4);
+    font-size: 45px;
+    box-shadow: none;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+form input.operator{
+    color: #33ffd8;
+    font-size: 20px;
+}
+
+.basic-calculator input[type = 'button'].clear{
+    color: white;
+    background: #a3eb08;
+}
+
+.basic-calculator input[type = 'button']{
+    background: grey;
+    border: 0.1px solid black;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.advanced-calculator  div input {
+    border: .1px solid black;
+}
